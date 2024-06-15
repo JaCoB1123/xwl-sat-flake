@@ -1,12 +1,12 @@
 { rustPlatform
-, fetchFromGithub  
+, fetchFromGitHub
 }: 
 
 rustPlatform.buildRustPackage rec {
   pname = "xwayland-satellite";
   version = "dirty";
 
-  src = fetchFromGithub {
+  src = fetchFromGitHub {
     owner = "Supreeeme";
     repo = "xwayland-satellite";
     rev = version;
