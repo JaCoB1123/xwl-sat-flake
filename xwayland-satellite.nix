@@ -10,7 +10,7 @@ rustPlatform.buildRustPackage rec {
     owner = "Supreeeme";
     repo = "xwayland-satellite";
     rev = version;
-    sha256 = "f261e3feec27da5dcbb07db6abdaf0662d5f0db5";
+    sha256 = "";
   };
 
   cargoSha256 = "";
