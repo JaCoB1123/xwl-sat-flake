@@ -4,7 +4,7 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "xwayland-satellite";
-  version = "dirty";
+  version = "v0.4";
 
   src = fetchFromGitHub {
     owner = "Supreeeme";
