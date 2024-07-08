@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "root": {
+      "inputs": {
+        "xwl-satellite-src": "xwl-satellite-src"
+      }
+    },
+    "xwl-satellite-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1720386459,
+        "narHash": "sha256-RW++Divwh3BjY5MAR0pS7LftVtyvPsUhSB/l3fS7pUY=",
+        "owner": "Supreeeme",
+        "repo": "xwayland-satellite",
+        "rev": "3140b7c83e0eade33abd94b1adac6a368db735f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Supreeeme",
+        "repo": "xwayland-satellite",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
