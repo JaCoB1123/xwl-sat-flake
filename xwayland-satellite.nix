@@ -32,8 +32,6 @@ rustPlatform.buildRustPackage {
     wrapProgram $out/bin/xwayland-satellite \
       --prefix PATH : "${lib.makeBinPath [
         xwayland
-        xorg.xcbutil
-        xcb-util-cursor
       ]}"
   '';
 
