@@ -1,4 +1,5 @@
 { lib
+, makeWrapper
 , rustPlatform
 , pkg-config
 , xcb-util-cursor
@@ -22,6 +23,7 @@ rustPlatform.buildRustPackage {
     xcb-util-cursor
     xorg.xcbutil
     xwayland
+    makeWrapper
   ];
 
   cargoSha256 = "sha256-XizbD9AsRz0DiGyt08E00Ae27/2NV35PdhoV2blQBJg=";
