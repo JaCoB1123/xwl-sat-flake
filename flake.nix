@@ -6,9 +6,9 @@
     };
   };
 
-  outputs = { ... }: {
+  outputs = { xwl-satellite-src, ... }: {
     overlays.default = final: prev: {
-      xwayland-satellite = prev.callPackage ./xwayland-satellite.nix { };
+      xwayland-satellite = prev.callPackage ./xwayland-satellite.nix { xwl-satellite-src = xwl-satellite-src; };
     };
   };
 }
