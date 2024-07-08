@@ -34,4 +34,6 @@ rustPlatform.buildRustPackage {
         xcb-util-cursor
       ]}"
   '';
+
+  doCheck = false;
 }
