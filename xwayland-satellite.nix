@@ -24,7 +24,7 @@ rustPlatform.buildRustPackage {
     xwayland
   ];
 
-  cargoSha256 = "sha256-Nh5ssclAqZFOBDJtEjBRs2z1l/FIVZgvBr1lxjoVjG4=";
+  cargoSha256 = "sha256-XizbD9AsRz0DiGyt08E00Ae27/2NV35PdhoV2blQBJg=";
 
   postInstall = ''
     wrapProgram $out/bin/xwayland-satellite \
