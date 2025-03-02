@@ -26,7 +26,7 @@ rustPlatform.buildRustPackage {
     makeWrapper
   ];
 
-  cargoSha256 = "sha256-XizbD9AsRz0DiGyt08E00Ae27/2NV35PdhoV2blQBJg=";
+  cargoHash = "sha256-XizbD9AsRz0DiGyt08E00Ae27/2NV35PdhoV2blQBJg=";
 
   postInstall = ''
     wrapProgram $out/bin/xwayland-satellite \
